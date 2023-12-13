@@ -39,7 +39,7 @@ arr2.map((s) => `this is ${s}`); // arg is number
 arr3.map((s: any): any => `this is ${s}`); // arg is number
 
 //# always use assertion in every fucking moment
-function console_erro(err: string): void {
+function clg(err: string): void {
 	console.log(err);
 	return;
 }
